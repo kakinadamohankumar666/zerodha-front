@@ -11,3 +11,47 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.nav-link{
+  margin-left: 40px;
+}
+/* Increase navbar height and spacing */
+.navbar {
+  min-height: 70px;
+}
+
+/* Slightly increase font size and spacing of nav links */
+.navbar-nav .nav-link {
+  font-size: 1.1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: inherit;
+  font-size: 18px;
+}
+
+#supportHero{
+  background-color: rgb(56, 126, 209);
+  color: white;
+}
+#supportHero a{
+  color: white;
+  font-size: 20px;
+}
+
+#supportWrapper{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 150px;
+}
+
+#supportHero input{
+  padding: 20px 50px;
+  width: 90%;
+  font-size: 20px;
+  border-radius: 10px;
+  border: none;
+}
