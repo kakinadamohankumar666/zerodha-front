@@ -17,7 +17,7 @@ function Navbar() {
       <form class="d-flex" role="search">
         <ul class="navbar-nav  mb-lg-0">
         <li class="nav-item">
-          <Link class="nav-link active" aria-current="page" to="/">Signup</Link>
+          <a class="nav-link active" aria-current="page" href="https://zerodha-dashboard-sigma.vercel.app/signup">Signup</a>
         </li>
         <li class="nav-item">
           <Link class="nav-link active" to="/about">About</Link>
